@@ -1,7 +1,10 @@
 package ru.sergey;
 
+import lombok.Data;
+
 import java.util.Random;
 
+@Data
 public class Playground {
         private final Random random = new Random();
         private int chosenDoor;

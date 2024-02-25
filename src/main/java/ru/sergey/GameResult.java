@@ -1,7 +1,9 @@
 package ru.sergey;
 
 
+import lombok.Data;
 import org.apache.commons.math3.stat.descriptive.SummaryStatistics;
+@Data
 
 public class GameResult {
     private final SummaryStatistics stats = new SummaryStatistics();
